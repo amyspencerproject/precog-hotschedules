@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotschedules Mockup</title>
+    <link rel="stylesheet" type="text.css" href="./scss/_normalize.css" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./scss/fonts.css" />
+    <link rel="stylesheet" href="./scss/fontawesome-all.css" />
+    <link rel="stylesheet" href="./scss/google.css" />
+  </head>
+  <body>
+    <div class="Page">
+      <div class="PipelineCreatePage">
+        <div class="Container"><h1>Connect to HotSchedules</h1></div>
+        <div class="Container">
+          <div class="SourceAdd">
+            <div class="Group">
+              <button class="Button" type="button">
+                <i class="Icon fas fa-arrow-left"></i>Back
+              </button>
+            </div>
+            <div class="ConnectorForm">
+              <div class="KindForm">
+                <label class="Field"
+                  ><div class="Field-label">Name</div>
+                  <div class="Field-description">
+                    <p>Name of this connector in Precog.</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">API Root URL</div>
+                  <div class="Field-description">
+                    <p>
+                      Your Fourth API root url. Fourth provides customers with
+                      these details when an integration occurs.
+                    </p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Username</div>
+                  <div class="Field-description">
+                    <p>Your Fourth username</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Password</div>
+                  <div class="Field-description">
+                    <p>Your Fourth password</p>
+                  </div>
+                  <input class="Input" type="password" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Concept</div>
+                  <div class="Field-description"><p>Provided by Fourth</p></div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Store IDs</div>
+                  <div class="Field-description">
+                    <p>Space separated list of store ids to use.</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">
+                    Store IDs Upload File (optional)
+                  </div>
+                  <div class="Field-description">
+                    <p>
+                      If you have numberous Store IDs then upload a file of
+                      store ids in .csv format
+                    </p>
+                  </div>
+                  <label class="Upload"
+                    ><input type="file" class="Upload-file" />
+                    <div class="Button Upload-fileName">
+                      <span class="Upload-fileNameIcon"
+                        ><i class="Icon fas fa-upload"></i></span
+                      >Select file
+                    </div></label
+                  ></label
+                ><label class="Field"
+                  ><div class="Field-label">Start Date</div>
+                  <div class="Field-description">
+                    <p>The date of the oldest schedule to load (YYYY-MM-DD).</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="" /></label
+                ><label class="Field"
+                  ><div class="Field-label">Weeks of Projected Sales</div>
+                  <div class="Field-description">
+                    <p>The number of weeks of projected sales you want</p>
+                  </div>
+                  <input class="Input" type="text" placeholder="1"
+                /></label>
+              </div>
+              <div class="Group">
+                <div class="ButtonGroup">
+                  <button class="Button" type="button">
+                    <i class="Icon fas fa-plus"></i>Create connector
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
